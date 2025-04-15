@@ -9,6 +9,21 @@
 # 2. Ordered: The order of elements is preserved.
 # 3. Heterogeneous: Lists can store elements of different data types (e.g., integers, strings, other lists).
 # 4. Dynamic: Lists can grow or shrink in size as needed.
+# 5. Indexing: Elements can be accessed using positive or negative indexing.
+# 6. Slicing: Subsets of lists can be created using slicing syntax.
+# 7. Nested: Lists can contain other lists, allowing for complex data structures.
+# 8. Comprehension: A concise way to create lists using expressions and loops.
+# 9. Methods: Lists have a variety of built-in methods for manipulation (e.g., append, remove, sort).
+# 10. Iteration: Lists can be iterated over using loops, allowing for easy access to each element.
+# 11. Length: The length of a list can be determined using the `len()` function.
+# 12. Membership Testing: Elements can be checked for membership using the `in` and `not in` operators.
+# 13. Sorting: Lists can be sorted in ascending or descending order using the `sort()` method.
+# 14. Repetition: Lists can be repeated using the `*` operator.
+# 15. Concatenation: Lists can be concatenated using the `+` operator.
+# 16. Copying: Lists can be copied using the `copy()` method or slicing.
+# 17. Clearing: Lists can be cleared using the `clear()` method.
+# 18. Indexing: Elements can be accessed using positive or negative indexing.
+
 
 # Example of creating lists:
 list1 = [1, 2, 3, 4, 5]  # A list of integers
@@ -20,6 +35,8 @@ print("List 1:", list1)
 print("List 2:", list2)
 print("List 3:", list3)
 print("List 4:", list4)
+list2,list1.copy()  # Creating a shallow copy of list1
+print("Copy of List 1:", list2,list1.copy())
 
 # List Operations:
 # 1. Indexing and Slicing
