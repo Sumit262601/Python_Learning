@@ -22,7 +22,6 @@
 # 15. Concatenation: Lists can be concatenated using the `+` operator.
 # 16. Copying: Lists can be copied using the `copy()` method or slicing.
 # 17. Clearing: Lists can be cleared using the `clear()` method.
-# 18. Indexing: Elements can be accessed using positive or negative indexing.
 
 
 # Example of creating lists:
