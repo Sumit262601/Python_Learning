@@ -146,6 +146,9 @@ class YouTubeDownloader:
                 self.window.after(0, self.reset_ui)
                 return
 
+            # Create download directory if it doesn't exist
+            os.makedirs(download_path, exist_ok=True)
+
             # Extract numerical resolution value
             selected_quality = self.quality_var.get().split()[0][:-1]  # Gets "2160" from "2160p (4K)"
             
